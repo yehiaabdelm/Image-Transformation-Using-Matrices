@@ -6,9 +6,8 @@ import PyQt5
 %matplotlib qt5
 
 # Notes: This works but it's too hardcoded. Also, we need to find out how much a picture is scaled down.
-
-
-# Scaling and warping
+#
+# Perspective Transformation
 
 windows = cv2.imread('windows.jpeg')
 windows
